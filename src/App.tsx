@@ -4,6 +4,7 @@ import Home from './Home'
 import Events from './Events'
 import EventDetails from './EventDetails'
 import Contact from './Contact'
+import Terms from './Terms'
 import './App.css'
 
 const NAV_ITEMS = [
@@ -139,12 +140,9 @@ function Footer() {
           </div>
 
           <div className="f-col">
-            <a
-              href="#terms"
-              onClick={(e) => e.preventDefault()}
-            >
+            <Link to="/terms">
               Terms
-            </a>
+            </Link>
 
             <a
               href="#privacy"
@@ -170,12 +168,17 @@ export default function App() {
 
       <Routes>
         <Route path="/" element={<Home />} />
+
         <Route path="/Events" element={<Events />} />
+
         <Route
           path="/Events/pre-halloween"
           element={<EventDetails />}
         />
+
         <Route path="/Contact" element={<Contact />} />
+
+        <Route path="/terms" element={<Terms />} />
       </Routes>
 
       <Footer />
