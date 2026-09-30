@@ -1,5 +1,5 @@
 const MAPS_URL =
-  'https://www.google.com/maps/search/?api=1&query=Omega+IX+2655+17th+Main+Rd+Sahakar+Nagar+Bengaluru+Karnataka+560092'
+  'https://maps.app.goo.gl/tXv7WS2m6tKZzmiVA'
 const INSTAGRAM_URL = 'https://instagram.com/southblr.ent'
 
 export default function EventDetails() {
@@ -8,7 +8,7 @@ export default function EventDetails() {
       <div className="ev-hero">
         <img
           src="/events/pre-halloween.png"
-          alt="Pre-Halloween Party at Omega IX"
+          alt="Pre-Halloween Party at BLAH BLA X"
           className="ev-hero-image"
         />
 
@@ -19,30 +19,34 @@ export default function EventDetails() {
             <br />
             PARTY
           </h1>
-          <p className="ev-venue mono">OMEGA IX &middot; BENGALURU</p>
+          <p className="ev-venue mono">BLAH BLA X &middot; YELAHANKA</p>
         </div>
       </div>
 
       <div className="wrap section" style={{ paddingTop: 60 }}>
         <p className="eyebrow mono">THE EXPERIENCE</p>
         <p className="exp-copy">
-          Get ready for the <strong>Pre-Halloween Party</strong> at Omega IX. Dress up, bring your
-          crew and get ready for a night of Halloween vibes in South Bengaluru.
+          Get ready for the <strong>Pre-Halloween Party</strong> at BLAH BLA X.
+          Dress up, bring your crew and get ready for a night of Halloween
+          vibes in Bengaluru.
         </p>
 
         <div className="info-grid">
           <div className="info-cell">
             <div className="info-label mono">DATE</div>
-            <div className="info-val">03 OCT 2026</div>
+            <div className="info-val">04 OCT 2026</div>
           </div>
+
           <div className="info-cell">
             <div className="info-label mono">TIME</div>
-            <div className="info-val">8:00 PM onwards</div>
+            <div className="info-val">7:30 PM – 11:30 PM</div>
           </div>
+
           <div className="info-cell">
             <div className="info-label mono">VENUE</div>
-            <div className="info-val">OMEGA IX</div>
+            <div className="info-val">BLAH BLA X</div>
           </div>
+
           <div className="info-cell">
             <div className="info-label mono">AGE</div>
             <div className="info-val">21+</div>
@@ -51,34 +55,27 @@ export default function EventDetails() {
       </div>
 
       <div className="wrap section" style={{ paddingTop: 0 }}>
-        <p className="eyebrow mono">TICKETS</p>
-        <div className="ticket-grid">
-          <div className="ticket-cell">
-            <div className="tk-label mono">SINGLE</div>
-            <div className="tk-price">&#8377;499</div>
-            <div className="tk-desc">Entry for 1 person</div>
-          </div>
-          <div className="ticket-cell">
-            <div className="tk-label mono">COUPLE</div>
-            <div className="tk-price">&#8377;799</div>
-            <div className="tk-desc">Entry for 2 people</div>
-          </div>
-        </div>
-      </div>
-
-      <div className="wrap section" style={{ paddingTop: 0 }}>
         <p className="eyebrow mono">WHERE IT&apos;S HAPPENING</p>
+
         <div className="location-box">
           <div className="loc-visual">
             <div className="pin" />
           </div>
-          <h2 className="loc-venue-name display">OMEGA IX</h2>
+
+          <h2 className="loc-venue-name display">BLAH BLA X</h2>
+
           <p className="loc-address">
-            2655, 17th Main Rd, near Kodigenahalli Gate,
+            Mall of Asia,
             <br />
-            Sahakar Nagar, Bengaluru, Karnataka 560092
+            Yelahanka, Bengaluru, Karnataka
           </p>
-          <a className="btn btn-ghost" href={MAPS_URL} target="_blank" rel="noopener noreferrer">
+
+          <a
+            className="btn btn-ghost"
+            href={MAPS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             OPEN IN GOOGLE MAPS <span className="btn-arrow">&rarr;</span>
           </a>
         </div>
@@ -86,25 +83,48 @@ export default function EventDetails() {
 
       <div className="wrap cta-block">
         <p className="cta-title display">INTERESTED?</p>
-        <p className="cta-sub">Want to attend the next South BLR experience?</p>
+        <p className="cta-sub">
+          Want to attend the next South BLR experience?
+        </p>
+
         <div className="cta-buttons">
-          <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+          <a
+            className="btn"
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             DM @SOUTH.BLR
           </a>
-          <a className="btn btn-ghost" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+
+          <a
+            className="btn btn-ghost"
+            href={INSTAGRAM_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             FOLLOW SOUTH BLR
           </a>
         </div>
       </div>
 
       <div className="wrap ig-section">
-        <p className="ig-handle mono">FOLLOW THE NIGHT &middot; @SOUTH.BLR</p>
+        <p className="ig-handle mono">
+          FOLLOW THE NIGHT &middot; @SOUTH.BLR
+        </p>
+
         <p className="ig-words">
           Parties. People. Music.
           <br />
           South Bengaluru.
         </p>
-        <a className="btn" href={INSTAGRAM_URL} target="_blank" rel="noopener noreferrer">
+
+        <a
+          className="btn"
+          href={INSTAGRAM_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           FOLLOW ON INSTAGRAM <span className="btn-arrow">&rarr;</span>
         </a>
       </div>
