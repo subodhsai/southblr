@@ -6,12 +6,17 @@ export default function Home() {
       <div className="hero">
         <div className="hero-field" />
         <p className="hero-mark mono">SOUTH BLR</p>
+
         <h1 className="hero-title display">
           THE NIGHT
           <br />
           STARTS HERE.
         </h1>
-        <p className="hero-tagline">Events built for South Bengaluru.</p>
+
+        <p className="hero-tagline">
+          Events built for South Bengaluru.
+        </p>
+
         <Link to="/Events" className="btn">
           EXPLORE EVENTS <span className="btn-arrow">&rarr;</span>
         </Link>
@@ -26,33 +31,24 @@ export default function Home() {
               src="/events/pre-halloween.png"
               alt="Pre-Halloween Party"
             />
+
             <span className="tag21 mono">21+</span>
           </div>
 
           <div className="event-body">
-            <h2 className="event-title display">PRE-HALLOWEEN PARTY</h2>
+            <h2 className="event-title display">
+              PRE-HALLOWEEN PARTY
+            </h2>
 
             <p className="event-meta mono">
-              OMEGA IX &middot; BENGALURU
+              BLAH BLA X &middot; YELAHANKA
             </p>
 
             <p className="event-datetime">
-              03 OCT 2026
+              04 OCT 2026
               <br />
-              <span className="d2">8:00 PM onwards</span>
+              <span className="d2">7:30 PM – 11:30 PM</span>
             </p>
-
-            <div className="price-row">
-              <div className="price-item">
-                <div className="p-label mono">SINGLE</div>
-                <div className="p-val">&#8377;499</div>
-              </div>
-
-              <div className="price-item">
-                <div className="p-label mono">COUPLE</div>
-                <div className="p-val">&#8377;799</div>
-              </div>
-            </div>
 
             <span className="event-cta mono">
               VIEW EVENT <span className="arr">&rarr;</span>
