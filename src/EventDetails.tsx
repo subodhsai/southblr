@@ -94,7 +94,7 @@ export default function EventDetails() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            DM @SOUTH.BLR
+            DM @SOUTHBLR.ENT
           </a>
 
           <a
@@ -103,14 +103,14 @@ export default function EventDetails() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            FOLLOW SOUTH BLR
+            FOLLOW SOUTHBLR.ENT
           </a>
         </div>
       </div>
 
       <div className="wrap ig-section">
         <p className="ig-handle mono">
-          FOLLOW THE NIGHT &middot; @SOUTH.BLR
+          FOLLOW THE NIGHT &middot; @SOUTHBLR.ENT
         </p>
 
         <p className="ig-words">
