@@ -28,11 +28,11 @@ export default function Events() {
               </h2>
 
               <p className="event-meta mono">
-                OMEGA IX &middot; BENGALURU
+                BLAH BLA X &middot; MALL OF AISA, YELAHANKA
               </p>
 
               <p className="event-datetime tight">
-                03 OCT 2026
+                04 OCT 2026 &middot; 7:30 PM – 11:30 PM
               </p>
 
               <span className="event-cta mono">
