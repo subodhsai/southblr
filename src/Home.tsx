@@ -45,9 +45,9 @@ export default function Home() {
             </p>
 
             <p className="event-datetime">
-              04 OCT 2026
+              10 OCT 2026
               <br />
-              <span className="d2">7:30 PM – 11:30 PM</span>
+              <span className="d2">2:00 PM – 7:00 PM</span>
             </p>
 
             <span className="event-cta mono">
