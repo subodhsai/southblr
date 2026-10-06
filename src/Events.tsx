@@ -32,7 +32,7 @@ export default function Events() {
               </p>
 
               <p className="event-datetime tight">
-                04 OCT 2026 &middot; 7:30 PM – 11:30 PM
+                10 OCT 2026 &middot; 2:00 PM – 7:00 PM
               </p>
 
               <span className="event-cta mono">
