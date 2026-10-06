@@ -34,12 +34,12 @@ export default function EventDetails() {
         <div className="info-grid">
           <div className="info-cell">
             <div className="info-label mono">DATE</div>
-            <div className="info-val">04 OCT 2026</div>
+            <div className="info-val">10 OCT 2026</div>
           </div>
 
           <div className="info-cell">
             <div className="info-label mono">TIME</div>
-            <div className="info-val">7:30 PM – 11:30 PM</div>
+            <div className="info-val">2:00 PM – 6:00 PM</div>
           </div>
 
           <div className="info-cell">
